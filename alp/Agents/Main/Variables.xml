@@ -20,7 +20,7 @@
 	<Variable Class="Parameter">
 		<Id>1317197756204</Id>
 		<Name><![CDATA[DiffusionFactor]]></Name>
-		<X>250</X>
+		<X>260</X>
 		<Y>150</Y>
 		<Label>
 			<X>10</X>
@@ -57,11 +57,7 @@
 		<PublicFlag>false</PublicFlag>
 		<PresentationFlag>true</PresentationFlag>
 		<ShowLabel>true</ShowLabel>
-		<Properties SourceId="1317197756199"
-              TargetId="1317197756200"
-              External="false"
-              Constant="false"
-              Array="false">
+		<Properties External="false" Constant="false" Array="false">
 			<Formula>StockA * Fraction + Diffusion</Formula>
 			<Color/>
 			<ValveIndex>1</ValveIndex>

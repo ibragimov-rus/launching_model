@@ -144,12 +144,12 @@
 			<Height>0.0</Height>
 			<PolarityPosition>0.95</PolarityPosition>
 			<Direction>
-				<X>0</X>
+				<X>-10</X>
 				<Y>-50</Y>
 			</Direction>
 			<Id>1317197756206</Id>
 			<Name><![CDATA[DiffusionFactor - Diffusion]]></Name>
-			<X>250</X>
+			<X>260</X>
 			<Y>150</Y>
 			<Label>
 				<X>40</X>
