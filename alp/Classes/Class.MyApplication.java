@@ -13,7 +13,7 @@ public class MyApplication {
 				System.out.println("External application received output: root.StockADS:");
 				System.out.println(root.StockADS);
 				if (true) {
-					String lookHere = "new text";
+					String lookHere = "conflict text";
 				}
 			}
 		};
