@@ -20,7 +20,7 @@
 	<Variable Class="Parameter">
 		<Id>1317197756204</Id>
 		<Name><![CDATA[DiffusionFactor]]></Name>
-		<X>250</X>
+		<X>260</X>
 		<Y>150</Y>
 		<Label>
 			<X>10</X>
