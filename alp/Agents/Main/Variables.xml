@@ -57,11 +57,7 @@
 		<PublicFlag>false</PublicFlag>
 		<PresentationFlag>true</PresentationFlag>
 		<ShowLabel>true</ShowLabel>
-		<Properties SourceId="1317197756199"
-              TargetId="1317197756200"
-              External="false"
-              Constant="false"
-              Array="false">
+		<Properties External="false" Constant="false" Array="false">
 			<Formula>StockA * Fraction + Diffusion</Formula>
 			<Color/>
 			<ValveIndex>1</ValveIndex>
