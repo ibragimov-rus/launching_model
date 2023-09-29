@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnyLogicWorkspace splitVersion="3"
+                   WorkspaceVersion="1.9"
+                   AnyLogicVersion="8.8.5.202309151124"
+                   AlpVersion="8.8.2">
+	<Model>
+		<Id>1317197756196</Id>
+		<Name><![CDATA[Launching AnyLogic Model from External Application]]></Name>
+		<Description><![CDATA[Export this model as standalone application and modify bat/sh/cmd file by changing class name launching_model.Simulation to launching_model.MyApplication and run the bat/cmd/sh file to see how it works.
+]]></Description>
+		<EngineVersion>6</EngineVersion>
+		<JavaPackageName><![CDATA[launching_model]]></JavaPackageName>
+		<ModelTimeUnit>Minute</ModelTimeUnit>
+		<ActiveObjectClasses/>
+		<DifferentialEquationsMethod>EULER</DifferentialEquationsMethod>
+		<MixedEquationsMethod>RK45_NEWTON</MixedEquationsMethod>
+		<AlgebraicEquationsMethod>MODIFIED_NEWTON</AlgebraicEquationsMethod>
+		<AbsoluteAccuracy>1.0E-5</AbsoluteAccuracy>
+		<FixedTimeStep>0.001</FixedTimeStep>
+		<RelativeAccuracy>1.0E-5</RelativeAccuracy>
+		<TimeAccuracy>1.0E-5</TimeAccuracy>
+		<Frame>
+			<Width>800</Width>
+			<Height>600</Height>
+		</Frame>
+		<Database>
+			<Logging>false</Logging>
+			<AutoExport>false</AutoExport>
+			<ShutdownCompact>false</ShutdownCompact>
+			<ImportSettings/>
+			<ExportSettings/>
+		</Database>
+		<RunConfiguration ActiveObjectClassId="1317197756197">
+			<Id>1528095812589</Id>
+			<Name><![CDATA[RunConfiguration]]></Name>
+			<MaximumMemory>512</MaximumMemory>
+			<ModelTimeProperties>
+				<StopOption>Stop at specified time</StopOption>
+				<InitialDate>1317197756212</InitialDate>
+				<InitialTime>0.0</InitialTime>
+				<FinalDate>1317201356212</FinalDate>
+				<FinalTime>60.0</FinalTime>
+			</ModelTimeProperties>
+			<AnimationProperties>
+				<StopNever>false</StopNever>
+				<ExecutionMode>realTimeScaled</ExecutionMode>
+				<RealTimeScale>25.0</RealTimeScale>
+				<EnableZoomAndPanning>true</EnableZoomAndPanning>
+				<EnableDeveloperPanel>false</EnableDeveloperPanel>
+				<ShowDeveloperPanelOnStart>false</ShowDeveloperPanelOnStart>
+			</AnimationProperties>
+			<Inputs/>
+			<Outputs/>
+		</RunConfiguration>
+		<JavaClasses>
+			<JavaClass>
+				<Id>1317203210162</Id>
+				<Name><![CDATA[MyApplication]]></Name>
+			</JavaClass>
+			<JavaClass>
+				<Id>1317203421048</Id>
+				<Name><![CDATA[Callback]]></Name>
+			</JavaClass>
+		</JavaClasses>
+		<RequiredLibraryReference>
+			<LibraryName>com.anylogic.libraries.modules.markup_descriptors</LibraryName>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<VersionBuild>0</VersionBuild>
+		</RequiredLibraryReference>
+	</Model>
+</AnyLogicWorkspace>
